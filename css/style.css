@@ -1,0 +1,253 @@
+@media (min-width: 992px) { 
+
+    /* body {
+        margin-bottom: 200px;
+    } */
+
+    .header .bg-light {
+        padding-top: 10px;
+        background-color: rgb(255, 255, 255)!important;
+        /* position: absolute; */
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px ;
+    }
+    
+    .header .nav-link:hover{
+        font-weight: bold;
+        /* position: absolute; */
+        margin-top: -2px;
+    }
+
+    .header .nav-link:hover:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        width: 50%;
+        margin: auto;
+    }
+    
+    .header .nav-link:focus{
+        font-weight: bold;
+    }
+
+    /* BANNER */
+    .banner {
+        background-color:  #F4F4FC;
+        padding-top: 30px;
+        padding-bottom: 60px;
+        height: auto;
+        width: 100%;
+    }
+
+    .banner .bg-banner {
+        background: url(../Assets/bg-banner.png);
+        width: 663.77px;
+        height: 620px;
+        /* margin-left: 100px; */
+     
+    }
+
+    .banner .bg-banner .person1 {
+        width: 397px;
+        height: auto;
+        margin-left: 250px;
+    }
+
+    .banner .name-tag {
+        margin-top: 200px;
+        margin-left: 150px;
+    }
+
+    /* skills */
+    .skills {
+        padding-top: 80px;
+    }
+
+    .skills .judul{
+        margin-top: 50px;
+    }
+
+    .skills .judul h5, .about-me .judul h5, 
+    .latest-project h5, .social-media h5  {
+        color: #FFAF29;
+    }    
+
+
+    .skills-ui, .skills-frontend, .skills-graphic, .skills-editing{
+        width: 100%;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin-top: 15px;
+        padding : 10px;
+        /* padding-left: 50px; */
+    }
+
+    .skills-frontend {
+        margin-left: 15px;
+    }
+
+    .skills-editing {
+        margin-left: 15px;
+    }
+
+    .skills-ui h5, .skills-frontend h5, .skills-graphic h5, .skills-editing h5 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .skills-ui h6, .skills-frontend h6, .skills-graphic h6, .skills-editing h6 {
+        font-size: 11px;
+    }
+
+    .skills .skills-ui .ic_ui {
+        width: 30px;
+        height: auto;
+    }
+    
+
+    .skills .skills-frontend .ic_front-end {
+        width: 50px;
+        height: auto;
+    }
+
+    .skills .skills-graphic .ic_graphic {
+        width: 50px;
+        height: auto;
+    }
+    
+    .skills .skills-editing .ic_editing {
+        width: 50px;
+        height: auto;
+    }
+    
+    /* about me */
+    .about-me {
+        padding-top: 100px;
+        /* background-color: #FFAF29;
+        width: 100%;
+        height: auto; */
+    }
+
+    .about-me .bg-aboutme {
+        background: url(../Assets/bg-2.png);
+        width: 205px;
+        height: 261px;
+        /* margin-left: 100px; */
+    }
+
+    .about-me .person2 {
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .about-me .movie , .photo, .game{
+        border: 1px solid #FFC769;
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .about-me .ic_movie, .ic_photo, .ic_game {
+        width: 20px;
+        height: 20px;
+    }
+
+    .about-me .movie h6, .photo h6, .game h6 {
+        margin-left: 10px;
+    }
+
+    .about-me .photo {
+        margin-left: 10px;
+    } 
+
+    .about-me .game {
+        margin-left: 20px;
+    }
+
+    /* latest-project */
+    .latest-project {
+        margin-top: 200px;
+        background-color:  #F4F4FC; 
+        height: auto;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+    
+    .latest-project .brand, .mobile-apps, .web-apps {
+        width: 100%;
+        height: 321px;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 50px;
+    }
+
+
+    .brand .logo-design {
+        width: 180px;
+        height: auto;
+    }
+
+    .mobile-apps .ui-mobile {
+        width: 100%;
+        height: auto;
+    }
+
+    .web-apps .web-dev {
+        width: 100%;
+        height: auto;
+    }
+
+    .latest-project .mobile-apps {
+        margin-left: 20px;
+    } 
+
+    .latest-project .web-apps {
+        margin-left: 40px;
+    } 
+
+    .about-me .game {
+        margin-left: 20px;
+    }
+
+
+    /* sosmed */
+    .social-media {
+        margin-top: 100px;
+    }
+
+    .logo_sosmed {
+        height: 80px;
+        width: 80px;
+        margin: 5px;
+    }
+
+    /* footer */
+    .footer {
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+        background-color: #460E2A;
+        color: white;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .taptotop {
+        height: 50px;
+        width: auto;
+        position: fixed;
+        right: 50px;
+        bottom: 40px;
+    }
+
+
+ }
